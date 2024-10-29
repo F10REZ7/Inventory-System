@@ -44,7 +44,7 @@ public class InventorySystem extends JFrame {
         JPanel loginPanel = new JPanel();
         loginPanel.setLayout(new GridBagLayout());
         loginPanel.setBackground(new Color(240, 240, 255));
-        loginPanel.setBorder(BorderFactory.createTitledBorder("Inicio de Sesión"));
+        loginPanel.setBorder(BorderFactory.createTitledBorder("Inicio de Sesion"));
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10); // espaciadpo
@@ -162,7 +162,7 @@ public class InventorySystem extends JFrame {
         updateButton.addActionListener(new UpdateInventoryAction());
         inputPanel.add(updateButton);
 
-        inventoryPanel.add(inputPanel, BorderLayout.SOUTH);
+        inventoryPanel.add(inputPanel, BorderLayout.NORTH);
 
         mainPanel.add(inventoryPanel, "Inventory");
     }
