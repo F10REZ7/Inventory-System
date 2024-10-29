@@ -261,7 +261,7 @@ public class InventorySystem extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
             updateInventoryTable(); 
-            JOptionPane.showMessageDialog(null, "Inventario actualizado", "Éxito", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Inventario actualizado", "Exito", JOptionPane.INFORMATION_MESSAGE);
         }
     }
 
